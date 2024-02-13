@@ -6,8 +6,9 @@ EdsBasicDeliveryStatusCreate is used to define the basic status reporting for ED
 
 EdsBasicDeliveryStatusCreate is used when a Patient entity is not required, for instance for reporting of Acknowledgments
 
+As this profile is based upon a FHIR R4 version of IHE BALP there will be some migration considerations to be done including porting extensions from R4 to R5
 " 
-* ^url = "http://medcomehmi.dk/ig/ehmi-eds/StructureDefinition/EdsBasicDeliveryStatusCreate"
+* ^url = "http://medcomehmi.dk/ig/dk-medcom-ehmi-eds-r5/StructureDefinition/EdsBasicDeliveryStatusCreate"
 * ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>StructureDefinition for the EdsBasicDeliveryStatusCreate.</div>"
 * ^text.status = #additional
 * ^contact[0].name = "MedCom"
